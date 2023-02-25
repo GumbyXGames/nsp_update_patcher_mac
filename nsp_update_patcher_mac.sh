@@ -21,6 +21,8 @@ mv hacpack ..
 cd ..
 rm -rf hacpacksrc
 
+# 
+
 mkdir -p ~/.switch
 cp prod.keys ~/.switch
 touch ~/.switch/title.keys
@@ -72,8 +74,8 @@ rm *
 cd ..
 rm -rf hactool_out
 
-cp hactool temp/
-cp hacpack temp/
+mv hactool temp/
+mv hacpack temp/
 cd temp
 
 # parse Title ID from base program NCA
