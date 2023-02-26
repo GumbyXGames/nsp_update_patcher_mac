@@ -21,8 +21,6 @@ mv hacpack ..
 cd ..
 rm -rf hacpacksrc
 
-# 
-
 mkdir -p ~/.switch
 cp prod.keys ~/.switch
 touch ~/.switch/title.keys
@@ -103,3 +101,4 @@ mkdir nsp
 cd ..
 mv temp/nsp/$titleid.nsp ./$titleid[patched].nsp
 rm -rf temp
+rm ~/.switch/title.keys

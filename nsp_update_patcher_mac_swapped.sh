@@ -72,8 +72,8 @@ rm *
 cd ..
 rm -rf hactool_out
 
-cp hactool temp/
-cp hacpack temp/
+mv hactool temp/
+mv hacpack temp/
 cd temp
 
 # parse Title ID from base program NCA
@@ -101,3 +101,4 @@ mkdir nsp
 cd ..
 mv temp/nsp/$titleid.nsp ./$titleid[patched].nsp
 rm -rf temp
+rm ~/.switch/title.keys
